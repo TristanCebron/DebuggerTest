@@ -181,7 +181,9 @@ Java's floating-point division behaves differently from integer division:
 
 ![Zero divided by zero - NaN](screenshots/16-division-nan.png)
 
-The use of `double` also means that certain decimal values may show small floating-point precision differences. A separate screenshot of the `1.6753456 / 0.1` test is not included in the provided images.
+**1.6753456 / 0.1**
+<img width="1280" height="714" alt="adfbsdfbvdhfs" src="https://github.com/user-attachments/assets/ba05ffe8-d9ec-4571-b64a-00700b0c102b" />
+
 
 ## 🧪 Example Calculations
 
