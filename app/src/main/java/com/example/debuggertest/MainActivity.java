@@ -107,12 +107,14 @@ public class MainActivity extends AppCompatActivity {
                             "Unknown operator: " + operator);
             }
 
+
             if (Double.isNaN(result)) {
                 mResultTextView.setText(
                         getString(R.string.result_prefix, "NaN"));
 
             } else if (Double.isInfinite(result)) {
-                mResultTextView.setText(R.string.error_div_zero);
+                mResultTextView.setText(
+                        getString(R.string.result_prefix, "Infinity"));
 
             } else {
                 DecimalFormat format =
@@ -122,6 +124,7 @@ public class MainActivity extends AppCompatActivity {
                         getString(R.string.result_prefix,
                                 format.format(result)));
             }
+
 
             Log.d(TAG, "operator=" + operator
                     + ", operandOne=" + operandOne
