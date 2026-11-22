@@ -1,12 +1,19 @@
+
 <resources>
-    <string name="app_name">DebuggerTest</string>
+    <string name="app_name">DebuggerTest - SimpleCalc</string>
+
     <string name="first_number">First number</string>
     <string name="second_number">Second number</string>
+
     <string name="add">ADD</string>
     <string name="sub">SUB</string>
     <string name="div">DIV</string>
     <string name="mul">MUL</string>
+
     <string name="result_prefix">Result: %s</string>
+
     <string name="error_enter_numbers">Please enter both numbers</string>
+    <string name="error_required_field">This field is required</string>
+    <string name="error_invalid_number">Please enter valid numbers</string>
     <string name="error_div_zero">Cannot divide by zero</string>
 </resources>
